@@ -12,7 +12,7 @@ func TestRouterTableDriven(t *testing.T) {
         want string
     }{
         {"numbers", 0, "Zero"},
-        {"numbers", 15, "Large"},
+        {"numbers", 15, "XLarge"},
     }
 
     for _, tt := range tests {

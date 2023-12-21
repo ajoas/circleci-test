@@ -1,0 +1,26 @@
+mode: set
+github.com/ajoas/circleci-test/internal/foo/foo.go:3.27,4.13 1 1
+github.com/ajoas/circleci-test/internal/foo/foo.go:4.13,6.4 1 1
+github.com/ajoas/circleci-test/internal/foo/foo.go:7.3,7.15 1 1
+github.com/ajoas/circleci-test/internal/foo/foo.go:10.27,11.13 1 0
+github.com/ajoas/circleci-test/internal/foo/foo.go:11.13,13.4 1 0
+github.com/ajoas/circleci-test/internal/foo/foo.go:14.3,14.15 1 0
+github.com/ajoas/circleci-test/internal/foo/foo.go:17.28,20.2 2 1
+github.com/ajoas/circleci-test/internal/foo/foo.go:22.28,25.2 2 0
+github.com/ajoas/circleci-test/internal/router/router.go:9.37,10.21 1 1
+github.com/ajoas/circleci-test/internal/router/router.go:10.21,14.4 3 1
+github.com/ajoas/circleci-test/internal/router/router.go:15.3,15.17 1 0
+github.com/ajoas/circleci-test/internal/router/router.go:15.17,19.4 3 0
+github.com/ajoas/circleci-test/internal/router/router.go:20.3,20.16 1 0
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:3.32,6.2 2 0
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:8.36,9.16 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:9.16,11.4 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:12.3,12.16 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:12.16,14.4 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:15.3,15.16 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:15.16,17.4 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:18.3,18.16 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:18.16,20.4 1 1
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:21.3,21.23 1 0
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:21.23,23.4 1 0
+github.com/ajoas/circleci-test/internal/numbers/numbers.go:24.3,24.17 1 0
