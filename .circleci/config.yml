@@ -17,6 +17,8 @@ jobs:
           covermode: atomic
           failfast: true
           race: true
+          coverprofile: cover.out
+      - run: ls -l
       - coveralls/upload
       - persist_to_workspace:
           root: ~/project
