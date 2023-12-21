@@ -24,3 +24,5 @@ workflows:
   main:
     jobs:
       - build_and_test
+  foo:
+    jobs:
