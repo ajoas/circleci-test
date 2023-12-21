@@ -20,6 +20,6 @@ func Foo(input int) string {
 }
 
 func Bar(input int) string {
-  subbar := SubFoo(input)
+  subbar := SubBar(input)
   return subbar
 }
