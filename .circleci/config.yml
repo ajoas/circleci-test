@@ -19,7 +19,8 @@ jobs:
           race: true
           coverprofile: cover.out
       - run: ls -l
-      - coveralls/upload
+      - coveralls/upload:
+          coverage_file: cover.out
       - persist_to_workspace:
           root: ~/project
           paths: .
