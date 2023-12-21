@@ -17,6 +17,7 @@ jobs:
           covermode: atomic
           failfast: true
           race: true
+      - coveralls/upload
       - persist_to_workspace:
           root: ~/project
           paths: .
