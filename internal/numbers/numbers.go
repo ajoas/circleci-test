@@ -6,6 +6,18 @@ func CheckZero(input int) bool {
 }
 
 func CheckLarger(input int) string {
+  if input > 18 {
+    return "XLarge"
+  }
+  if input > 16 {
+    return "XLarge"
+  }
+  if input > 12 {
+    return "XLarge"
+  }
+  if input > 10 {
+    return "XLarge"
+  }
   if input > 8 {
     return "XLarge"
   }
