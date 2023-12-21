@@ -1,6 +1,7 @@
 version: 2.1
+
 jobs:
-  test_go:
+  build:
     docker:
       - image: cimg/go:1.21.5
     steps:
@@ -9,4 +10,5 @@ jobs:
           name: Running go tests
           command: |
             go mod tidy
+            go mod download
             go test -coverage ./...
