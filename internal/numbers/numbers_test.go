@@ -10,6 +10,8 @@ func TestNumbersTableDriven(t *testing.T) {
         a int
         want string
     }{
+        {19, "XLarge"},
+        {18, "XLarge"},
         {17, "XLarge"},
         {16, "XLarge"},
         {15, "XLarge"},
