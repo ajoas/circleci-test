@@ -7,7 +7,7 @@ func CheckZero(input int) bool {
 
 func CheckLarger(input int) string {
   if input > 20 {
-    return "XLarge"
+    return "XXXLarge"
   }
   if input > 18 {
     return "XLarge"
