@@ -29,6 +29,7 @@ func TestNumbersTableDriven(t *testing.T) {
         {5, "Medium"},
         {4, "Smedium"},
         {3, "Smedium"},
+        {2, "Small"},
     }
 
     for _, tt := range tests {
