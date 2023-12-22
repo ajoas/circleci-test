@@ -7,6 +7,9 @@ func CheckZero(input int) bool {
 
 // an ersatz tshirt sizing
 func CheckLarger(input int) string {
+  if input > 28 {
+    return "XXXLarge"
+  }
   if input > 26 {
     return "XXXLarge"
   }
