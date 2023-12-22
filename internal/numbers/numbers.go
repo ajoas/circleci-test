@@ -6,6 +6,9 @@ func CheckZero(input int) bool {
 }
 
 func CheckLarger(input int) string {
+  if input > 24 {
+    return "XXXLarge"
+  }
   if input > 22 {
     return "XXXLarge"
   }
