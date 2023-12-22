@@ -10,6 +10,10 @@ func TestNumbersTableDriven(t *testing.T) {
         a int
         want string
     }{
+        {23, "XXXLarge"},
+        {22, "XXXLarge"},
+        {21, "XXXLarge"},
+        {20, "XLarge"},
         {19, "XLarge"},
         {18, "XLarge"},
         {17, "XLarge"},
@@ -27,6 +31,7 @@ func TestNumbersTableDriven(t *testing.T) {
         {5, "Medium"},
         {4, "Smedium"},
         {3, "Smedium"},
+        {2, "Small"},
     }
 
     for _, tt := range tests {
